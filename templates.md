@@ -68,7 +68,7 @@ Example:
 from gophish.models import *
 
 template = Template(name='Test Template',
-html="<html><body>Click <a href="{{.URL}}">here</a></body></html>)
+html="<html><body>Click <a href='{{.URL}}'>here</a></body></html>"
 ```
 
 ### Methods
